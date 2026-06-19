@@ -17,7 +17,7 @@ body {
   background-color: #fffefe;
   color: #000000;
   margin: 0;
-  padding: 0;
+  padding-right: 50px;
 }
 
 main {
@@ -36,8 +36,9 @@ h2 {
   margin: 15px 0;
   width: 320px;
   min-height: 430px;
-  display: inline-block;
+  display: flex;
   vertical-align: top;
+  justify-content: center;
 }
 
 .card img {
@@ -63,7 +64,8 @@ ul {
 footer {
   background-color: #e6005c;
   color: #ffffff;
-  text-align: center;
-  padding: 12px;
+  padding-left: 30px;
   font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
